@@ -1,0 +1,238 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%; }
+
+.section-header {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px; }
+  .section-header .header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px; }
+    .section-header .header-nav ul li {
+      line-height: 70px;
+      padding: 0 20px; }
+      .section-header .header-nav ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px; }
+    .section-header .header-nav ul li:nth-child(10) a {
+      background: #c13626;
+      padding: 10px 15px; }
+
+.content-header {
+  text-align: center; }
+  .content-header h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 30px; }
+  .content-header div.header-tag {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-image: url("../img/red-tape.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 1.5px; }
+  .content-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0; }
+    .content-header ul li {
+      padding: 0 15px; }
+    .content-header ul div:nth-child(1) {
+      color: #ea8822;
+      font-size: 24px;
+      font-weight: 900; }
+    .content-header ul div:nth-child(2) {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 10px;
+      letter-spacing: 1px; }
+  .content-header h3 {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0; }
+  .content-header .section-bottom p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 10px; }
+
+.section-post-header {
+  background: #000000;
+  height: 100px; }
+  .section-post-header .header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px; }
+    .section-post-header .header-nav ul li {
+      line-height: 70px;
+      padding: 0 20px; }
+      .section-post-header .header-nav ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px; }
+    .section-post-header .header-nav ul li:nth-child(10) a {
+      background: #c13626;
+      padding: 10px 15px; }
+
+.stampede-info {
+  background: #181008; }
+  .stampede-info h3 {
+    font-size: 17px;
+    color: #fff;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px; }
+  .stampede-info p {
+    color: #ffffff;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 0 20px 50px; }
+
+.section-tickets {
+  background-image: url("../img/noise-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  padding: 70px; }
+
+.ticket-tag {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-image: url("../img/label.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  line-height: 35px;
+  font-size: 20px;
+  letter-spacing: 1.5px; }
+
+.ticket-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 70%;
+  margin: 50px auto; }
+  .ticket-container .ticket-type-container {
+    width: 450px;
+    text-align: left;
+    margin-left: 95px; }
+    .ticket-container .ticket-type-container .ticket-type {
+      display: inline-block;
+      color: #ea8822;
+      font-size: 20px;
+      border-right: 2px solid #fff;
+      font-weight: 900;
+      padding-right: 10px;
+      text-transform: uppercase;
+      text-align: left; }
+  .ticket-container span {
+    color: #ffffff;
+    font-size: 50px; }
+  .ticket-container .ticket-dics {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left; }
+  .ticket-container ul {
+    margin: 10px 15px;
+    line-height: 20px; }
+    .ticket-container ul li {
+      list-style-type: circle;
+      color: #ffffff;
+      text-align: left;
+      font-size: 11px; }
+  .ticket-container .buy-ticket-btn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 10px;
+    width: fit-content;
+    text-transform: uppercase; }
+
+.section-artist {
+  background-image: url("../img/artist-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 70px; }
+  .section-artist .artist-container-main {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; }
+    .section-artist .artist-container-main .artist-container {
+      width: 225px;
+      margin-top: 30px;
+      text-align: left;
+      padding: 0 10px; }
+      .section-artist .artist-container-main .artist-container h2 {
+        color: #ea8822;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 10px 0; }
+      .section-artist .artist-container-main .artist-container p {
+        color: #fff;
+        font-size: 11px;
+        margin: 10px 0; }
+      .section-artist .artist-container-main .artist-container img {
+        margin: 30px 0; }
+
+.event-info-section {
+  background: #000000;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px;
+  height: 620px; }
+  .event-info-section .event-tag {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-image: url("../img/label-event.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 1.5px; }
+  .event-info-section .info-container {
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+    text-align: left; }
+    .event-info-section .info-container h4 {
+      color: #ea8822;
+      border-bottom: 1px solid #ea8822;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-top: 30px; }
+    .event-info-section .info-container .info .wrap {
+      display: flex;
+      flex-direction: row; }
+    .event-info-section .info-container .info ul {
+      width: 30%;
+      margin: 15px; }
+      .event-info-section .info-container .info ul li {
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 12px;
+        list-style-type: disc; }
